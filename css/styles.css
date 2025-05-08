@@ -11040,6 +11040,14 @@ html {
   }
 }
 
+.hide {
+  display: none;
+}
+
+.description:hover + .hide {
+  display: block;
+}
+
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
